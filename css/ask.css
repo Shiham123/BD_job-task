@@ -70,28 +70,51 @@
 .ask-section-content-btn > .ask-section-playground {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0px;
+  left: 1%;
   display: flex;
+  justify-content: space-between;
 }
 
 .ask-section-content-btn > .ask-section-playground > button {
-  font-size: 40px;
-  font-weight: bold;
-  margin: 20px;
-  padding: 10px;
-  width: 200px;
-  border: 1px solid #ddd;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: serif;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  width: 270px;
   transition: all 0.5s ease-out;
-  color: #273c75;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+.ask-section-content-btn > .ask-section-playground > button > span {
+  padding: 0px 10px;
+}
+
+.ask-section-content-btn > .ask-section-playground > button > i {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px 20px;
+  border-radius: 35px;
+}
+
+.ask-section-content-btn > .ask-section-playground > button > i:hover {
+  background-color: white;
+  box-shadow: none;
+  border: none;
+  outline: none;
 }
 
 .ask-section-content-btn > .ask-section-playground > button:hover {
-  color: #fff;
+  color: black;
 }
-.ask-section-content-btn > .ask-section-playground > button {
-  background: linear-gradient(to right, #fff 50%, #e84118 50%);
+.ask-section-content-btn > .ask-section-playground > button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: linear-gradient(to right, transparent 50%, #ffffff 50%);
   background-size: 200% 100%;
   background-position: left;
 }
