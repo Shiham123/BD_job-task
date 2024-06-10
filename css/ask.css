@@ -11,6 +11,24 @@
   grid-template-columns: repeat(8, 1fr) repeat(4, 1fr);
 }
 
+@media (max-width: 1024px) {
+  .ask-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .ask-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .ask-section-content {
   grid-column: span 8;
 }
@@ -98,6 +116,18 @@
 .ask-section-animation {
   grid-column: span 4;
   display: flex;
+}
+
+@media (max-width: 1024px) {
+  .ask-section-animation {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ask-section-animation {
+    margin-top: 10rem;
+  }
 }
 
 .ask-section-animation > div:nth-child(1) {

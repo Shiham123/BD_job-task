@@ -1,9 +1,7 @@
-const buttonEl = document.querySelector('.ask-section-content > button');
-
-buttonEl.addEventListener('mouseenter', function () {
-  buttonEl.classList.add('hover-btn');
-});
-
-buttonEl.addEventListener('mouseleave', function () {
-  buttonEl.classList.remove('hover-btn');
-});
+// const textEl = document.querySelector('.text p');
+// textEl.innerHTML = textEl.innerText
+//   .split('')
+//   .map(
+//     (char, i) => `<span style="transform:rotate(${i * 8.3}deg)">${char}</span>`
+//   )
+//   .join('');
