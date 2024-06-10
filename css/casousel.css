@@ -80,3 +80,31 @@
 .slider-section > .image-container:nth-child(3) > .overlay h1 {
   margin-top: 70%;
 }
+
+.carousel-control-prev-icon-custom {
+  padding: 20px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  transition: all 0.5 ease-in-out;
+}
+.carousel-control-next-icon-custom {
+  padding: 20px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  transition: all 0.5 ease-in-out;
+}
+
+.carousel-control-prev-icon-custom:hover {
+  transform: translateX(-10px);
+  transition: all 0.5 ease-in-out;
+}
+.carousel-control-next-icon-custom:hover {
+  transform: translateX(10px);
+  transition: all 0.5 ease-in-out;
+}
+
+.ask-section-content-btn {
+  text-align: center !important;
+}
