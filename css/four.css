@@ -1,0 +1,105 @@
+:root {
+  --bg-primary: #208d75;
+  --text-primary: #83deb2;
+  --res-nav-color: #028065;
+  --bg-light: #c6f7ea;
+}
+
+.bubble {
+  background-image: url('/assets/svg/wave.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-primary);
+}
+
+.bubble-content {
+  background-color: var(--text-primary);
+  margin-top: -17rem;
+  width: 100vw;
+}
+
+@media (max-width: 1024px) {
+  .bubble-content {
+    margin-top: -19rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bubble-content {
+    margin-top: -22rem;
+  }
+}
+
+.bubble-details > h1 {
+  font-family: serif;
+  font-size: 54px;
+  line-height: 52px;
+  text-align: center;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+@media (max-width: 768px) {
+  .bubble-details > h1 {
+    font-size: 40px;
+  }
+}
+
+.bubble-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .bubble-icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .bubble-icons {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bubble-icons > .bubble-icon {
+  margin: 5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble-icons > .bubble-icon > i {
+  font-size: 100px;
+  color: black;
+  opacity: 0.7;
+}
+
+.bubble-icons > .bubble-icon > h5 {
+  font-size: 24px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.bubble-icons > .bubble-icon > p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 2px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 300;
+  padding: 10px 0px;
+}
