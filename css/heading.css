@@ -1,0 +1,12 @@
+:root {
+  --bg-primary: #208d75;
+  --text-primary: #83deb2;
+}
+
+.navbar-bg {
+  background-color: var(--bg-primary);
+}
+
+.navbar-text {
+  color: var(--text-primary);
+}
