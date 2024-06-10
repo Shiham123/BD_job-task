@@ -1,0 +1,68 @@
+:root {
+  --bg-primary: #208d75;
+  --text-primary: #83deb2;
+  --res-nav-color: #028065;
+  --bg-light: #c6f7ea;
+}
+
+.ask-section {
+  padding: 10rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr) repeat(4, 1fr);
+}
+
+.ask-section-content {
+  grid-column: span 8;
+}
+
+.ask-section-content > h3 {
+  font-size: 51px;
+  font-family: serif;
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.ask-section-content > h3::first-letter {
+  text-transform: capitalize;
+}
+
+.ask-section-content > p {
+  font-size: 17px;
+  line-height: 24px;
+  font-family: sans-serif;
+  padding: 30px 0px;
+}
+
+.hover-btn {
+  background-color: white !important;
+  border-radius: 52px;
+}
+
+.ask-section-content > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.ask-section-content > button > span {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  padding: 0px 25px;
+}
+
+.ask-section-content > button > i {
+  font-size: 30px;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 50%;
+}
+
+.ask-section-animation {
+  grid-column: span 4;
+}
