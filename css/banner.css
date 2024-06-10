@@ -1,0 +1,80 @@
+:root {
+  --bg-primary: #208d75;
+  --text-primary: #83deb2;
+  --res-nav-color: #028065;
+  --bg-light: #c6f7ea;
+}
+
+.banner-section {
+  background-color: var(--bg-primary);
+  padding: 30vh 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-section > h1 {
+  color: var(--text-primary);
+  font-size: 5em;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 10px;
+}
+.banner-section > h2 {
+  color: var(--text-primary);
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 5px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-section > h1 {
+    font-size: 3em;
+  }
+
+  .banner-section > h2 {
+    font-size: 2em;
+  }
+}
+
+.banner-section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 3em 0;
+}
+
+.banner-section > div > button {
+  background-color: var(--bg-light);
+  font-size: 25px;
+  font-family: sans-serif;
+  padding: 10px 50px;
+  border-radius: 65px;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+  width: 20rem;
+}
+
+.banner-section > div > button:hover {
+  transform: scale(1.09);
+}
+
+@media screen and (max-width: 768px) {
+  .banner-section > div {
+    flex-direction: column;
+    text-align: center;
+  }
+}
