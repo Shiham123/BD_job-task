@@ -1,0 +1,61 @@
+:root {
+  --bg-primary: #208d75;
+  --text-primary: #83deb2;
+  --res-nav-color: #028065;
+  --bg-light: #c6f7ea;
+}
+
+.edge-section {
+  background-color: #83deb2;
+  padding: 0 0 10rem 0;
+  margin-bottom: -17rem;
+}
+
+@media (max-width: 1024px) {
+  .edge-section {
+    margin-bottom: -19rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .edge-section {
+    margin-bottom: -22rem;
+  }
+}
+
+.edge-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.edge-content > h3 {
+  text-align: center;
+  font-size: 31px;
+  line-height: 43px;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding: 20px 0px;
+}
+
+.edge-content > p {
+  text-align: center;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: sans-serif;
+  padding: 20px 0px;
+}
+
+.bubble-two {
+  background-image: url('/assets/svg/waveFlip.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-primary);
+}
