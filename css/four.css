@@ -5,34 +5,25 @@
   --bg-light: #c6f7ea;
 }
 
-.bubble {
-  background-image: url('/assets/svg/wave.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--text-primary);
-}
-
 .bubble-content {
   background-color: var(--text-primary);
-  margin-top: -17rem;
+  padding-top: 17rem;
   width: 100vw;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
 }
 
 @media (max-width: 1024px) {
   .bubble-content {
-    margin-top: -19rem;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
   }
 }
 
 @media (max-width: 768px) {
   .bubble-content {
-    margin-top: -22rem;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
   }
 }
 

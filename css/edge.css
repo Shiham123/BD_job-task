@@ -7,20 +7,7 @@
 
 .edge-section {
   background-color: #83deb2;
-  padding: 0 0 10rem 0;
-  margin-bottom: -17rem;
-}
-
-@media (max-width: 1024px) {
-  .edge-section {
-    margin-bottom: -19rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .edge-section {
-    margin-bottom: -22rem;
-  }
+  padding: 0rem 0 10rem 0;
 }
 
 .edge-content {
