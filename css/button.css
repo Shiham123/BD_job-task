@@ -4,3 +4,29 @@
   --res-nav-color: #028065;
   --bg-light: #c6f7ea;
 }
+
+button {
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px !important;
+  transition: transform 0.4s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button > span {
+  font: normal normal 500 25px/30px serif;
+  text-transform: capitalize;
+}
+
+button > i {
+  font-size: 25px;
+}

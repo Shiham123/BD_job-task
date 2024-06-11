@@ -38,32 +38,6 @@
   padding: 10px 0px;
 }
 
-.minds-content > .minds-details > button {
-  background-color: white;
-  border: none;
-  outline: none;
-  padding: 20px 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  border-radius: 100px;
-  transition: transform 0.4s ease-in-out;
-}
-
-.minds-content > .minds-details > button:hover {
-  transform: scale(1.1);
-}
-
-.minds-content > .minds-details > button > span {
-  font: normal normal 500 25px/30px serif;
-  text-transform: capitalize;
-}
-
-.minds-content > .minds-details > button > i {
-  font-size: 25px;
-}
-
 /* ! image section style */
 
 .minds-content > .minds-image {

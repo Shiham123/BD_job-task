@@ -104,7 +104,3 @@
   transform: translateX(10px);
   transition: all 0.5 ease-in-out;
 }
-
-.ask-section-content-btn {
-  text-align: center !important;
-}
