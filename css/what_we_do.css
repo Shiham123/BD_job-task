@@ -1,0 +1,34 @@
+:root {
+  --bg-primary: #208d75;
+  --text-primary: #83deb2;
+  --res-nav-color: #028065;
+  --bg-light: #c6f7ea;
+}
+
+.what_we_do-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 10rem 0;
+}
+
+.what_we_do-content > h6 {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  color: var(--bg-primary);
+}
+
+.what_we_do-content > h1 {
+  color: black;
+  font-family: serif;
+  font-size: 51px;
+  line-height: 56px;
+  padding: 15px 0px;
+  transition: color 0.3s ease-in-out;
+}
+
+.what_we_do-content > h1:hover {
+  color: var(--text-primary);
+}
