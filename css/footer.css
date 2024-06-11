@@ -95,6 +95,24 @@
   padding: 10px 0 0 0;
 }
 
+@media (max-width: 1024px) {
+  .footer-two-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-two-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+
 .footer-two-content > .content-one {
   grid-column: span 6;
 }
@@ -140,6 +158,24 @@
   gap: 20px;
 }
 
+@media (max-width: 1024px) {
+  .footer-two-content > .content-two > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-two-content > .content-two > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+
 .footer-two-content > .content-two > ul > li {
   font-size: 17px;
   line-height: 17px;
@@ -155,6 +191,24 @@
   justify-content: center;
   align-items: self-end;
   gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .content-two > .content-two-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-two > .content-two-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
 }
 
 .content-two > .content-two-contact > .contact-one {
@@ -173,4 +227,39 @@
 .contact-one > i {
   font-size: 21px;
   color: var(--text-primary);
+}
+
+/* ! copyright section */
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .copyright {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .copyright {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.copyright > p {
+  font: normal normal 300 17px/24px serif;
+  color: var(--text-primary);
+  padding: 1rem 0rem;
+}
+
+.copyright > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
