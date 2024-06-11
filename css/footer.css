@@ -1,0 +1,83 @@
+:root {
+  --bg-primary: #208d75;
+  --text-primary: #83deb2;
+  --res-nav-color: #028065;
+  --bg-light: #c6f7ea;
+}
+
+.footer-wave {
+  background-image: url('/assets/svg/footerWave.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-primary);
+  background-color: var(--bg-light);
+}
+
+.footer-one {
+  background-color: var(--res-nav-color);
+  margin: -1rem 0 0 0;
+  padding: 10rem 0rem;
+}
+
+@media (max-width: 1024px) {
+  .footer-one {
+    margin-top: -5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-one {
+    margin-top: -7rem;
+  }
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content > h2 {
+  font: normal normal 700 68px/75px sans-serif;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.footer-content > p {
+  font: normal normal 300 68px/75px serif;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.footer-content > button {
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 100px;
+  transition: transform 0.4s ease-in-out;
+  margin: 5rem 0rem;
+}
+
+.footer-content > button:hover {
+  transform: scale(1.1);
+}
+
+.footer-content > button > span {
+  font: normal normal 500 25px/30px serif;
+  text-transform: capitalize;
+}
+
+.footer-content > button > i {
+  font-size: 25px;
+}
